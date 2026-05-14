@@ -84,9 +84,12 @@ stats:
     - "repos"
 
 languages:
+  languages:
   exclude:
     - "HTML"
     - "CSS"
     - "Shell"
     - "Dockerfile"
+    - "Jupyter Notebook"
+    - "PowerShell"
   max_display: 8
