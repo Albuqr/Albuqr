@@ -53,13 +53,17 @@ projects:
     arm: 2
     description: "Real-time anomaly detection pipeline — Kafka KRaft, Redis baseline store, FastAPI review layer."
 
-  - repo: "Albuqr/YOUR_CREDIT_RISK_REPO_NAME"
+  - repo: "Albuqr/credit-risk-scoring-system"
     arm: 1
     description: "Credit risk scoring system trained on 1.5M rows — AUC-ROC 0.908, XGBoost, SHAP explainability."
 
-  - repo: "Albuqr/YOUR_CRISIS_REPO_NAME"
+  - repo: "Albuqr/Hackathon-IBM"
     arm: 1
     description: "Humanitarian response platform — 9-agent architecture on IBM watsonx Orchestrate. UNASP + IBM Hackathon champion."
+
+  - repo: "Albuqr/BlingvsOcta"
+    arm: 2
+    description: "ERP comparative analysis for an industrial client — Streamlit dashboard with weighted scoring, delivered to production."
 
 theme:
   void: "#04061a"
