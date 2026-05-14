@@ -1,0 +1,88 @@
+username: Albuqr
+
+profile:
+  name: "João Pedro Castro Albuquerque"
+  tagline: "Data Engineer — dbt · Kafka · BigQuery · Python"
+  company: "Instituto Educathon"
+  location: "Hortolândia, SP, Brazil"
+  bio: |
+    I build data platforms end to end.
+    Most of what I've built came from real problems I ran into.
+  philosophy: '"Ship it. Document it. Understand every decision you made."'
+
+social:
+  email: "jpcaastroo@gmail.com"
+  linkedin: "joão-pedro-castro-albuquerque-60377a296"
+  website: "https://lakehouse.albuqr.com"
+
+galaxy_arms:
+  - name: "Data Engineering"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "SQL"
+      - "dbt"
+      - "Apache Airflow"
+      - "Apache Kafka"
+      - "BigQuery"
+
+  - name: "ML & AI"
+    color: "dendrite_violet"
+    items:
+      - "XGBoost"
+      - "SHAP"
+      - "MLflow"
+      - "IBM watsonx"
+      - "FastAPI"
+
+  - name: "Infrastructure"
+    color: "axon_amber"
+    items:
+      - "Docker"
+      - "Redis"
+      - "n8n"
+      - "Streamlit"
+      - "Flask"
+
+projects:
+  - repo: "Albuqr/Factory_Lakehouse"
+    arm: 0
+    description: "Data lakehouse for a Brazilian manufacturing client — BigQuery, dbt medallion architecture, Airflow orchestration."
+
+  - repo: "Albuqr/Transaction_Monitor"
+    arm: 2
+    description: "Real-time anomaly detection pipeline — Kafka KRaft, Redis baseline store, FastAPI review layer."
+
+  - repo: "Albuqr/YOUR_CREDIT_RISK_REPO_NAME"
+    arm: 1
+    description: "Credit risk scoring system trained on 1.5M rows — AUC-ROC 0.908, XGBoost, SHAP explainability."
+
+  - repo: "Albuqr/YOUR_CRISIS_REPO_NAME"
+    arm: 1
+    description: "Humanitarian response platform — 9-agent architecture on IBM watsonx Orchestrate. UNASP + IBM Hackathon champion."
+
+theme:
+  void: "#04061a"
+  nebula: "#080c20"
+  star_dust: "#0e1530"
+  synapse_cyan: "#0038b0"
+  dendrite_violet: "#7c3aed"
+  axon_amber: "#ffe100"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
+
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "repos"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Dockerfile"
+  max_display: 8
